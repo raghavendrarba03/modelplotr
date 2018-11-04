@@ -2,13 +2,12 @@
 Visualize the Business Value of your Predictive Models with modelplotr - By Jurriaan Nagelkerke (through R-bloggers)
 
 library(devtools)
+
 install_github("modelplot/modelplotr")
 
-#Business problesm: let’s say that we work for this bank and our marketing colleagues have asked us to help to select the customers that 
-#are most likely to respond to a term deposit offer. 
-#For that purpose, we will develop a predictive model and create the plots to discuss the results with our marketing colleagues. 
-#Since we want to show you how to build the plots, not how to build a perfect model, we’ll use six of these columns in our example. 
-#Here’s a short description on the data we use:
+#Business problesm: let’s say that we work for this bank and our marketing colleagues have asked us to help to select the customers that are most likely to respond to a term deposit offer. For that purpose, we will develop a predictive model and create the plots to discuss the results with our marketing colleagues. Since we want to show you how to build the plots, not how to build a perfect model, we’ll use six of these columns in our example. 
+
+Here’s a short description on the data we use:
 
 #y: has the client subscribed a term deposit?
 #duration: last contact duration, in seconds (numeric)
